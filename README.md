@@ -7,20 +7,16 @@ This project uses React.
 
 ## Installation and running
 
-In order to run the app locally, make sure you have NodeJS installed and run:
-
+- first, rename .env.example to **.env**
+- Then make sure you have NodeJS installed and run:
 ```bash
 npm install
 ```
-
-After installing all dependencies, run:
-
+- After installing all dependencies, run:
 ```bash
 npm run dev
 ```
-
-Go to your browser and type:
-
+- Finally, open your browser and copy or type this url:
 ```bash
 http://localhost:5173
 ```
