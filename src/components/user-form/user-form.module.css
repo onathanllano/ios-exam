@@ -1,0 +1,40 @@
+.form {
+  container-name: form;
+  container-type: inline-size;
+}
+
+.user_details {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form_group {
+  display: flex;
+  gap: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.form_field_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  margin-top: 1rem;
+}
+
+.form_field_error {
+  color: var(--color-error);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.button_submit {
+  width: 100%;
+}
+
+@container form (min-width: 640px) {
+  .button_submit {
+    width: auto;
+  }
+}

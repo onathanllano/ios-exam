@@ -1,0 +1,13 @@
+
+.delete_dialog_content {
+  padding: 1.5rem;
+
+}
+
+.delete_dialog_footer {
+  display: flex;
+  gap: .5rem;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}

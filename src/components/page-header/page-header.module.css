@@ -1,0 +1,9 @@
+.page_header {
+
+  padding: 2rem 0;
+}
+
+.page_inner_header {
+  display: flex;
+  justify-content: space-between;
+}

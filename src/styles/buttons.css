@@ -1,0 +1,76 @@
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 100px;
+  display: inline-block;
+  transition: all ease-in 0.25s;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:disabled {
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.button.primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.button.primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.button.button.primary:active {
+  background-color: var(--color-primary-darker);
+}
+
+
+.button.error {
+  background-color: var(--color-error);
+  color: #ffffff;
+}
+
+.button.error:hover {
+  background-color: var(--color-error);
+}
+
+.button.error:active {
+  background-color: var(--color-error);
+}
+
+.margin-top-1 {
+  margin-top: 1rem;
+}
+
+.button.error.outline {
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+  background-color: transparent;
+}
+
+.button.error.outline:hover {
+ 
+  background-color: var(--color-error);
+  color: #fff;
+}
+
+
+.button.icon {
+  padding: 0;
+}
+
+
+.button.loading {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+}
