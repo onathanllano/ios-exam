@@ -7,7 +7,7 @@ This project uses React.
 
 ## Installation and running
 
-- first, rename .env.example to **.env**
+- First, rename .env.example to **.env**
 - Then make sure you have NodeJS installed and run:
 ```bash
 npm install
